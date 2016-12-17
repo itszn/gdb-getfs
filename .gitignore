@@ -1,5 +1,6 @@
 .gdb_history
-peda-session-test.txt
+peda-session-*
 *.so
 *.o
 *.swp
+*.pyc
