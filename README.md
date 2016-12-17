@@ -2,7 +2,11 @@
 
 This script allows you to inspect values in fs: by LD_PRELOADing a shared library that interacts with fs for you.
 
-To use, clone this repo somewhere, and then do
+To use, clone this repo somewhere.
+
+Build the shared libraries with `make`
+
+Then to run
 ```gdb -x /path/to/gdbGetFs.py``` or ```source /path/to/gdbGetFs.py``` once you start gdb (or in your ~/.gdbinit).
 
 ##Example

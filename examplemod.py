@@ -1,7 +1,7 @@
-import gdbGetFs
+import gdbGetFS
 
-gdbGetFs.setFSInjection(True)
+gdbGetFS.setFSInjection(True)
 
 gdb.execute("start")
 
-print gdbGetFs.getFS(8)
+print gdbGetFS.getFS(8)
